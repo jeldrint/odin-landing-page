@@ -1,0 +1,244 @@
+* {
+    font-family: Roboto, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/*   HEADER CSS   */
+.header-section{
+    /*temporary dimension?*/
+    height: 500px;
+
+    padding: 25px 200px 50px;
+    background-color: #1f2937;
+
+    display: flex;
+    flex-direction: column;
+
+    font-size: 18px;
+    font-weight: 300;
+    color:#E5E7EB
+}
+
+/*   HEADER CSS - HEADER SECTION 1   */
+.header-section-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo-text{
+    font-size: 24px;
+    font-weight: 500;
+    color: #F9FAF8;
+    transition: 0.15s;
+}
+
+.header-logo-text:hover, .mano-link:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.header-logo-text:active, .mano-link:active{
+    transition: 0.15s;
+    color: #1F2937;
+}
+
+.header-link-text{
+    list-style-type: none;
+    font-size: 18px;
+    font-weight: 300;
+    color: #E5E7EB;
+
+    display: flex;
+    gap: 50px;
+}
+
+/*   HEADER CSS - HEADER SECTION 2   */
+.header-section-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    flex: 1;
+    column-gap: 80px;
+}
+
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+.hero-placeholder{
+    height: 250px;
+    width: 1000px;
+    background-color: rgba(162, 162, 162, 0.2);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-start;
+}
+
+/*   MIDDLE CSS    */
+.middle-section{    
+    display: flex;
+    flex-direction: column;
+}
+
+/*   MIDDLE CSS - TOP    */
+.middle-section-top{
+    padding: 30px 200px 70px;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-header{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-top: 10px;
+}
+
+.middle-section-top-2{
+    display: flex;
+    column-gap: 50px;
+
+    padding: 50px 0;
+}
+
+.middle-section-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 7px;
+
+}
+
+.middle-section-box{
+    border: solid 2px #3882F6;
+    height: 160px;
+    width: 160px;
+    border-radius: 10px;
+}
+.middle-section-box-caption{
+    font-size: 18px;
+    width: 170px;
+    text-align: center;
+    color: #1F2937;
+    opacity: 0.7;
+}
+
+
+/*   MIDDLE CSS - MID    */
+.middle-section-mid{
+    padding: 70px 500px 70px;
+ 
+    background-color:#E5E7EB;
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+}
+.quote-author{
+    display: flex;
+    align-self: flex-end;
+
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+/*   MIDDLE CSS - LOW    */
+.middle-section-low{
+    margin: 70px 350px 70px;
+    padding: 50px 80px 50px;
+
+    background-color: #3882F6;
+    color: aliceblue;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.middle-section-low-banner{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.banner-info{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+/*   FOOTER CSS    */
+.footer-section{
+    background-color: #1f2937;
+    color: #E5E7EB;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+
+/*  BUTTONS   */
+button:hover{
+    cursor: pointer;
+    background-color: #659efb;
+}
+
+button:active{
+    transition: 0.15s;
+    opacity: 0.5;
+}
+
+.hero-button, .banner-button{
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 700;
+    color: aliceblue;
+    padding: 8px 25px;
+    border: solid 0.5px #3882F6;
+    border-radius: 10px;
+    transition: 0.15s;
+}
+
+.banner-button{
+    border: solid 1px aliceblue;
+}
+
+
