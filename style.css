@@ -154,7 +154,7 @@ a{
 
 /*   MIDDLE CSS - MID    */
 .middle-section-mid{
-    padding: 70px 500px 70px;
+    padding: 70px 350px 70px;
  
     background-color:#E5E7EB;
     color:#1F2937;
@@ -181,7 +181,7 @@ a{
 
 /*   MIDDLE CSS - LOW    */
 .middle-section-low{
-    margin: 70px 350px 70px;
+    margin: 70px 300px 70px;
     padding: 50px 80px 50px;
 
     background-color: #3882F6;
